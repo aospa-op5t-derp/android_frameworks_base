@@ -296,4 +296,6 @@
     -->
     <integer name="config_longPressOnAssistBehaviorHwkeys">4</integer>
 
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">false</bool>
 </resources>
