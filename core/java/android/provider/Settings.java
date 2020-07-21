@@ -4893,7 +4893,7 @@ public final class Settings {
         private static final Validator AMBIENT_NOTIFICATION_LIGHT_AUTOMATIC_VALIDATOR =
                 BOOLEAN_VALIDATOR;
 
-                /**
+        /**
          * helper setting to contain the current pulse reason so we can check
          * if it has been triggered from a notification or a gesture
          * @hide
@@ -5031,6 +5031,13 @@ public final class Settings {
          * @hide
          */
         public static final String REFRESH_RATE_SETTING = "refresh_rate_setting";
+
+        /**
+         * Toggle for clipboard access toast.
+         * @hide
+         */
+
+        public static final String SHOW_CLIPBOARD_TOAST = "show_clipboard_toast";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
